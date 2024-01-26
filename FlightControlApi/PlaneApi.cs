@@ -1,7 +1,5 @@
 using System.Net;
-using Common.DB;
 using Common.Interface;
-using Common.Model;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;

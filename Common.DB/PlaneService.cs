@@ -2,11 +2,7 @@
 using Common.Model;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Azure.Cosmos.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Common.DB.Util;
 
 namespace Common.DB
 {
@@ -22,15 +18,9 @@ namespace Common.DB
             _client = new CosmosClient(_connString);
         }
 
-        public async Task<IEnumerable<Plane>> GetAll()
+        public async Task<IAsyncEnumerable<Plane>> GetAll()
         {
-            List<Plane> results = new();
-            var feed = _container.GetItemLinqQueryable<Plane>().ToFeedIterator();
-            while(feed.HasMoreResults)
-            {
-                results.AddRange(await feed.ReadNextAsync());
-            }
-            return results;
+            return _container.GetItemLinqQueryable<Plane>().ToFeedIterator().ToAsyncEnumerable();
         }
     }
 }
