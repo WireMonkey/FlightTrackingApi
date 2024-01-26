@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightControlApi", "FlightControlApi\FlightControlApi.csproj", "{841F35C9-2CF0-4024-934E-44327947FC65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightControlApi", "FlightControlApi\FlightControlApi.csproj", "{841F35C9-2CF0-4024-934E-44327947FC65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4A61507C-65CF-40EC-B5CB-041126D0DAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{4A61507C-65CF-40EC-B5CB-041126D0DAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DB", "Common.DB\Common.DB.csproj", "{729743B5-C541-4B9B-9100-C8F3F922069B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4A61507C-65CF-40EC-B5CB-041126D0DAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A61507C-65CF-40EC-B5CB-041126D0DAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A61507C-65CF-40EC-B5CB-041126D0DAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729743B5-C541-4B9B-9100-C8F3F922069B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729743B5-C541-4B9B-9100-C8F3F922069B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729743B5-C541-4B9B-9100-C8F3F922069B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729743B5-C541-4B9B-9100-C8F3F922069B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

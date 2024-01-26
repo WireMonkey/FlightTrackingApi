@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josh kofoot\\Documents\\git\\FlightControlApi\\Common\\Common.csproj": {}
+    "C:\\Users\\josh kofoot\\Documents\\git\\FlightTrackingApi\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josh kofoot\\Documents\\git\\FlightControlApi\\Common\\Common.csproj": {
+    "C:\\Users\\josh kofoot\\Documents\\git\\FlightTrackingApi\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josh kofoot\\Documents\\git\\FlightControlApi\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\josh kofoot\\Documents\\git\\FlightTrackingApi\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\josh kofoot\\Documents\\git\\FlightControlApi\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\josh kofoot\\Documents\\git\\FlightTrackingApi\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\josh kofoot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josh kofoot\\Documents\\git\\FlightControlApi\\Common\\obj\\",
+        "outputPath": "C:\\Users\\josh kofoot\\Documents\\git\\FlightTrackingApi\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
