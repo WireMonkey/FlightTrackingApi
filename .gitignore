@@ -263,3 +263,4 @@ paket-files/
 __pycache__/
 *.pyc
 /.vs/FlightControlApi/DesignTimeBuild/.dtbcache.v2
+/.vs/FlightControlApi/v17/.suo
