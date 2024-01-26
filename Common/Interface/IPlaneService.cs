@@ -4,6 +4,6 @@ namespace Common.Interface
 {
     public interface IPlaneService
     {
-        Task<IAsyncEnumerable<Plane>> GetAll();
+        IAsyncEnumerable<Plane> GetAll();
     }
 }

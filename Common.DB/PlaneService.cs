@@ -18,7 +18,7 @@ namespace Common.DB
             _client = new CosmosClient(_connString);
         }
 
-        public async Task<IAsyncEnumerable<Plane>> GetAll()
+        public IAsyncEnumerable<Plane> GetAll()
         {
             return _container.GetItemLinqQueryable<Plane>().ToFeedIterator().ToAsyncEnumerable();
         }

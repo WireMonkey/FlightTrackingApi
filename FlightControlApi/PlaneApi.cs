@@ -20,11 +20,9 @@ namespace FlightControlApi
         [Function("PlaneApi")]
         public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequestData req)
         {
-            var planes = await _planeService.GetAll();
-
             var response = req.CreateResponse(HttpStatusCode.OK);
             
-            await response.WriteAsJsonAsync(planes);
+            await response.WriteAsJsonAsync(_planeService.GetAll());
 
             return response;
         }
